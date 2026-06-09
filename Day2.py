@@ -5,7 +5,14 @@
 # print("the aere of circle is : ",area)
 
 
-a = int(input("Enter a Number : "))
+# a = int(input("Enter a Number : "))
 
-result = a * a
-print("The Squeare of Number : ",result)
+# result = a * a
+# print("The Squeare of Number : ",result)
+
+a = int(input("Enter a number : "))
+b = int(input("Enter a number 2 : "))
+
+a,b = b,a
+
+print("swap number : ",a,b)
